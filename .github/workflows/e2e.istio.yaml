@@ -21,6 +21,7 @@ on:
   push:
     branches:
       - master
+      - k8s/service-registry
 
 env:
   SKIP_TEST: true
